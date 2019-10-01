@@ -8,6 +8,8 @@ List of (indented) plugins:
 
 - Tears of Guthix: Adds an indicator to the overlay showing what skill will receive the xp reward (No more wasted runecrafting xp!)
 
+- Impling Jars: Adds tracking of loot from impling jars to default loot tracking plugin
+
 
 * Existing plugins from the base runelite maintain their original copyright for any original source code and are redistributed under these conditions.
 See https://github.com/runelite/runelite/ for full details.
