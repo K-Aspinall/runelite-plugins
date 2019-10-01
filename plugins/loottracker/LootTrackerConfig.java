@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2018, Psikoi <https://github.com/psikoi>
+ * Copyright (c) 2018, K-Aspinall <https://github.com/k-aspinall>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -55,6 +56,16 @@ public interface LootTrackerConfig extends Config
 		description = "Save loot between client sessions (requires being logged in)"
 	)
 	default boolean saveLoot()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+			keyName = "impJars",
+			name = "Impling Jars",
+			description = "Keeps track of loot obtained from impling jars"
+	)
+	default boolean impJars()
 	{
 		return true;
 	}
